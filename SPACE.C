@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+#include<ctype.h>
+#include<string.h>
+void main()
+{
+char s[100];
+int i=0,c=0;
+clrscr();
+printf("\n Enter the string with or without spaces//****ROSHNI SINGH(1901330100234)*****//");
+gets(s);
+for(i=0;s[i]!='\0';i++)
+{
+if(s[i]==' ')
+	c++;
+}
+printf("%d spaces",c);
+getch();
+}
