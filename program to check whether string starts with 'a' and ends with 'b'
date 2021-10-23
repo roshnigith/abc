@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+#inclde<string.h>
+void main()
+{
+char s[100];
+int i,n;
+printf("\n Enter the string");
+scanf("%s",&s);
+n=strlen(s);
+if(s[0]=='a'&&s[n-1]=='b')
+printf("\n string starts with 'a' and ends with 'b');
+else
+printf("\n string does not starts with 'a' and ends with 'b');
+getch();
+}
