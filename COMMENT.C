@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+char com[30];
+int i=2,a=0;
+clrscr();
+printf("\n Enter comment //***Roshni singh(101330100234)****//");
+gets(com);
+if(com[0]=='/'){
+if(com[1]=='/')
+printf("\n it is comment");
+else if(com[1]=='*'){
+for(i=2;i<=30;i++)
+{
+if(com[1]=='*'&&com[i+1]=='/')
+{
+printf("\n it is a constant");
+a=1;
+break;}
+else
+continue;}
+if(a==0)
+printf("\n It is not a constant");
+}
+else
+printf("\n It is not a constant");
+}
+else
+printf("\n It is not a constant");
+getch();
+}
