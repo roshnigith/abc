@@ -1,0 +1,22 @@
+#include<sdio.h>
+#include<conio.h>
+#include<string.h>
+void main()
+{
+char s[100];
+int i,n,flag=0;
+char x,y,z;
+printf("\n Enter the string");
+scanf("%s",&s);
+n=strlen(s);
+for(i=0;i<n-2;i++)
+{
+  if(s[i]=='a'&&s[i+1]=='b'&&s[i+2]=='b')
+  flag=1;
+}
+if(flag=1)
+printf("abb is a substring");
+else
+printf("abb is not a substring");
+getch();
+}
