@@ -5,7 +5,7 @@ void main()
 char com[30];
 int i=2,a=0;
 clrscr();
-printf("\n Enter comment //***Roshni singh(101330100234)****//");
+printf("\n Enter comment //***Roshni singh(1901330100234)****//");
 gets(com);
 if(com[0]=='/'){
 if(com[1]=='/')
