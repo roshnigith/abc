@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+void main()
+{char s[100];int i;
+printf("\n Enter the string");
+scanf("%s",&s);
+if(s[0]=='a'&&s[1]=='b')
+printf("String starts with ab");
+else
+printf("String does not start with ab");
+getch();
+}
