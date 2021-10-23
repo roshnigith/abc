@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+void main()
+{
+char s[100];
+printf("\n Enter the string");
+scanf("%s",&s);
+if((s[0]>65 && s[0]<=90)||(s[0]>97 && s[0]<=122))
+{
+printf("String is identifier");
+}
+else
+{
+printf("String is not an identifier");
+}
+getch();
+}
